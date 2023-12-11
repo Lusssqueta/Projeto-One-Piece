@@ -1,0 +1,18 @@
+/* ===== Scrollbar CSS ===== */
+
+.botoes::-webkit-scrollbar {
+  width: 16px;
+  height: 20px;
+}
+
+.botoes::-webkit-scrollbar-thumb {
+  background-color: rgb(82, 163, 221);
+  border-radius: 10px;
+  border: 2px solid #000000;
+}
+
+.botoes::-webkit-scrollbar-track {
+  border: 1px gray solid;
+  border-radius: 10px;
+  box-shadow: 0 0 4px gray inset;
+}

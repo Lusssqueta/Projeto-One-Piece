@@ -1,13 +1,13 @@
 const botoes = document.querySelectorAll(".botao")
 const personagens = document.querySelectorAll(".personagem")
 
-botoes.forEach((botao, indice) => {
+botoes.forEach((botao, index) => {
   botao.addEventListener("click", () => {
     desselecionarBotao()
     desselecionarPersonagem()
     
     botao.classList.add("selecionado")
-    personagens[indice].classList.add("selecionado")
+    personagens[index].classList.add("selecionado")
   })
 })
 
